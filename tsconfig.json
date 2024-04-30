@@ -2,9 +2,18 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "src": ["src/"],
+      "screens":["src/screens"],
+      "components":["src/components"],
+      "navigation":["src/navigation"],
+      "api":["src/api"],
+      "styles":["src/styles"],
+      "assts": ["assets/"],
     }
   },
   "extends": "expo/tsconfig.base",
   "include": ["global.d.ts", "**/*.ts", "**/*.tsx"]
 }
+
+
